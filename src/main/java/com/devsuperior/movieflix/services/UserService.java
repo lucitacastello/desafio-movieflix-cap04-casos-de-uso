@@ -23,7 +23,8 @@ public class UserService implements UserDetailsService {
 	
 	@Autowired
 	private AuthService authService;
-	
+
+	// usuário logado
 	@Transactional(readOnly = true)
 	public UserDTO getProfile() {
 		return new UserDTO(authService.authenticated());

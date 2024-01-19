@@ -16,7 +16,8 @@ public class AuthService {
 
 	@Autowired
 	private UserRepository userRepository;
-	
+
+	//usuário logado
 	protected User authenticated() {
 		try {
 			Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
