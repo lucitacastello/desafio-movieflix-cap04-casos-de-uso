@@ -1,4 +1,4 @@
-package com.devsuperior.movieflix.services;
+package com.devsuperior.movieflix.repositories;
 
 import com.devsuperior.movieflix.entities.Movie;
 import com.devsuperior.movieflix.entities.Review;
